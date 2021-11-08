@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(70deg,
+        #5aace0 0%,
+        #727ce6 20%,
+        #806de9 60%,
+        #a94aee) no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.container {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+}
+table{
+    width: 518px;
+}
+table caption{
+    margin: 5px;
+}
+tr th{
+    height: 70px;
+    border-radius: 50px;
+}
+
+tr td{
+    height: 70px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+tr td:hover, tr th:hover{
+    background-color: #00FF7F;
+}
